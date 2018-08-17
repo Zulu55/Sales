@@ -28,6 +28,20 @@
         [DataType(DataType.Date)]
         public DateTime PublishOn { get; set; }
 
+        public string ImageFullPath
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(this.ImagePath))
+                {
+                    return "noproduct";
+                }
+
+                return $"https://salesbackend.azurewebsites.net/{this.ImagePath.Substring(1)}";
+            }
+
+        }
+
         public override string ToString()
         {
             return this.Description;
