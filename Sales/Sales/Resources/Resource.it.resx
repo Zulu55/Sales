@@ -132,4 +132,25 @@
   <data name="Products" xml:space="preserve">
     <value>Prodotti</value>
   </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>Aggiungi prodotto</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Prezzo</value>
+  </data>
+  <data name="DescriptionPlaceholder" xml:space="preserve">
+    <value>Inserisci la descrizione del prodotto ....</value>
+  </data>
+  <data name="PricePlaceholder" xml:space="preserve">
+    <value>Inserisci il prezzo del prodotto ...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salvare</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>Osservazioni</value>
+  </data>
 </root>
