@@ -153,4 +153,13 @@
   <data name="Remarks" xml:space="preserve">
     <value>Osservazioni</value>
   </data>
+  <data name="ChangeImage" xml:space="preserve">
+    <value>Tocca el immagine per cambiarla.</value>
+  </data>
+  <data name="DescriptionError" xml:space="preserve">
+    <value>Immettere una descrizione</value>
+  </data>
+  <data name="PriceError" xml:space="preserve">
+    <value>Devi inserire un prezzo maggiore di zero.</value>
+  </data>
 </root>
