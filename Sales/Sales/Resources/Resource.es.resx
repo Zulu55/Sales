@@ -162,4 +162,34 @@
   <data name="PriceError" xml:space="preserve">
     <value>Debe ingresar un precio mayor que cero.</value>
   </data>
+  <data name="ImageSource" xml:space="preserve">
+    <value>¿De dónde vas a tomar la foto?</value>
+  </data>
+  <data name="FromGallery" xml:space="preserve">
+    <value>De la galería</value>
+  </data>
+  <data name="NewPicture" xml:space="preserve">
+    <value>Tomar una nueva imagen</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edición</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Está seguro de eliminar esto?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>¡Confirmar!</value>
+  </data>
 </root>
