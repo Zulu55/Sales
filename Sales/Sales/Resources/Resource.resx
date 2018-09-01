@@ -192,4 +192,10 @@
   <data name="Confirm" xml:space="preserve">
     <value>Confirm</value>
   </data>
+  <data name="EditProduct" xml:space="preserve">
+    <value>Edit Product</value>
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>Is Available?</value>
+  </data>
 </root>

@@ -173,4 +173,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\ic_action_add_circle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_chevron_right.png" />
+  </ItemGroup>
 </Project>
