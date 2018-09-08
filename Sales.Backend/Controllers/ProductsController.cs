@@ -10,6 +10,7 @@
     using Models;
     using Sales.Backend.Helpers;
 
+    [Authorize]
     public class ProductsController : Controller
     {
         private LocalDataContext db = new LocalDataContext();

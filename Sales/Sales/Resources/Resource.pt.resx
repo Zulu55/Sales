@@ -198,4 +198,52 @@
   <data name="IsAvailable" xml:space="preserve">
     <value>Está disponível.</value>
   </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pesquisar...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Logon:</value>
+  </data>
+  <data name="EMail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailPlaceHolder" xml:space="preserve">
+    <value>Insira o seu e-mail...</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="PasswordPlaceHolder" xml:space="preserve">
+    <value>Digite sua senha</value>
+  </data>
+  <data name="Forgot" xml:space="preserve">
+    <value>Esqueceu-se da palavra-passe?</value>
+  </data>
+  <data name="Rememberme" xml:space="preserve">
+    <value>Lembrar-me</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Novo utilizador</value>
+  </data>
+  <data name="EmailValidation" xml:space="preserve">
+    <value>Informe seu email</value>
+  </data>
+  <data name="PasswordValidation" xml:space="preserve">
+    <value>Precisa de inserir a sua palavra-passe.</value>
+  </data>
+  <data name="SomethingWrong" xml:space="preserve">
+    <value>O e-mail ou senha não são válidos.</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Configuração</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Fechar sessão</value>
+  </data>
 </root>
