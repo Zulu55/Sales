@@ -246,4 +246,61 @@
   <data name="Exit" xml:space="preserve">
     <value>Chiudi sessione</value>
   </data>
+  <data name="NoProductsMessage" xml:space="preserve">
+    <value>Nessuna informazione sui prodotti disponibile.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Cognome</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="FirstNamePlaceholder" xml:space="preserve">
+    <value>Immetti il tuo nome...</value>
+  </data>
+  <data name="LastNamePlaceholder" xml:space="preserve">
+    <value>Immetti il tuo cognome....</value>
+  </data>
+  <data name="PhonePlaceHolder" xml:space="preserve">
+    <value>Immetti il numero di telefono...</value>
+  </data>
+  <data name="AddressPlaceHolder" xml:space="preserve">
+    <value>Inserisci il tuo indirizzo...</value>
+  </data>
+  <data name="PasswordConfirm" xml:space="preserve">
+    <value>Conferma</value>
+  </data>
+  <data name="PasswordConfirmPlaceHolder" xml:space="preserve">
+    <value>Inserisci la password</value>
+  </data>
+  <data name="FirstNameError" xml:space="preserve">
+    <value>È necessario immettere un nome di pugno.</value>
+  </data>
+  <data name="LastNameError" xml:space="preserve">
+    <value>Immettere un cognome</value>
+  </data>
+  <data name="EMailError" xml:space="preserve">
+    <value>Si deve inserire un indirizzo email valido.</value>
+  </data>
+  <data name="PhoneError" xml:space="preserve">
+    <value>È necessario immettere un numero di telefono.</value>
+  </data>
+  <data name="PasswordConfirmError" xml:space="preserve">
+    <value>Devi inserire una password per confermare.</value>
+  </data>
+  <data name="PasswordsNoMatch" xml:space="preserve">
+    <value>La password e conferma devono essere uguali.</value>
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>È necessario immettere una password. Almeno 6 caratteri.</value>
+  </data>
+  <data name="RegisterConfirmation" xml:space="preserve">
+    <value>L'utente è stato creato correttamente. Ora è possibile immettere con l'email e la password assegnata.</value>
+  </data>
 </root>

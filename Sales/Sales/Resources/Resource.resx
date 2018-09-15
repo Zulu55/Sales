@@ -246,4 +246,61 @@
   <data name="Exit" xml:space="preserve">
     <value>Close session</value>
   </data>
+  <data name="NoProductsMessage" xml:space="preserve">
+    <value>No products information available.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FirstNamePlaceholder" xml:space="preserve">
+    <value>Enter your first name...</value>
+  </data>
+  <data name="LastNamePlaceholder" xml:space="preserve">
+    <value>Enter your last name...</value>
+  </data>
+  <data name="PhonePlaceHolder" xml:space="preserve">
+    <value>Enter your phone number...</value>
+  </data>
+  <data name="AddressPlaceHolder" xml:space="preserve">
+    <value>Enter your address...</value>
+  </data>
+  <data name="PasswordConfirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="PasswordConfirmPlaceHolder" xml:space="preserve">
+    <value>Enter your password confirm...</value>
+  </data>
+  <data name="FirstNameError" xml:space="preserve">
+    <value>You must enter a fist name.</value>
+  </data>
+  <data name="LastNameError" xml:space="preserve">
+    <value>You must enter a last name.</value>
+  </data>
+  <data name="EMailError" xml:space="preserve">
+    <value>You must enter a valid email.</value>
+  </data>
+  <data name="PhoneError" xml:space="preserve">
+    <value>You must enter a phone number.</value>
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>You must enter a password. At least 6 characters.</value>
+  </data>
+  <data name="PasswordConfirmError" xml:space="preserve">
+    <value>You must enter a password confirm.</value>
+  </data>
+  <data name="PasswordsNoMatch" xml:space="preserve">
+    <value>The password and confirm must be equals.</value>
+  </data>
+  <data name="RegisterConfirmation" xml:space="preserve">
+    <value>The user was created successfully. Now you can enter with the email and the assigned password.</value>
+  </data>
 </root>

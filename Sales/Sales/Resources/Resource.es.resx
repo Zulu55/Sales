@@ -246,4 +246,61 @@
   <data name="Exit" xml:space="preserve">
     <value>Cerrar sesión</value>
   </data>
+  <data name="NoProductsMessage" xml:space="preserve">
+    <value>No hay información de productos disponible.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="FirstNamePlaceholder" xml:space="preserve">
+    <value>Escribe tu nombre...</value>
+  </data>
+  <data name="LastNamePlaceholder" xml:space="preserve">
+    <value>Escribe tu apellido...</value>
+  </data>
+  <data name="PhonePlaceHolder" xml:space="preserve">
+    <value>Escribir el número de teléfono...</value>
+  </data>
+  <data name="AddressPlaceHolder" xml:space="preserve">
+    <value>Introduzca su dirección</value>
+  </data>
+  <data name="PasswordConfirm" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="PasswordConfirmPlaceHolder" xml:space="preserve">
+    <value>Introduzca su confirmación de contraseña...</value>
+  </data>
+  <data name="FirstNameError" xml:space="preserve">
+    <value>Debe introducir un nombre.</value>
+  </data>
+  <data name="LastNameError" xml:space="preserve">
+    <value>Debe escribir apellidos</value>
+  </data>
+  <data name="EMailError" xml:space="preserve">
+    <value>Hay que introducir una dirección de correo válida.</value>
+  </data>
+  <data name="PhoneError" xml:space="preserve">
+    <value>Debe introducir un número de teléfono.</value>
+  </data>
+  <data name="PasswordConfirmError" xml:space="preserve">
+    <value>Debes ingresar una contraseña.</value>
+  </data>
+  <data name="PasswordsNoMatch" xml:space="preserve">
+    <value>La contraseña y la confirmación deben ser iguales.</value>
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Debe introducir una contraseña. Por lo menos 6 caracteres.</value>
+  </data>
+  <data name="RegisterConfirmation" xml:space="preserve">
+    <value>El usuario se ha creado correctamente. Ahora puede ingresar con el correo electrónico y la contraseña asignada.</value>
+  </data>
 </root>

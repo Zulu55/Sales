@@ -246,4 +246,61 @@
   <data name="Exit" xml:space="preserve">
     <value>Fechar sessão</value>
   </data>
+  <data name="NoProductsMessage" xml:space="preserve">
+    <value>Nenhuma informação de produtos disponível.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Sobrenome</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="FirstNamePlaceholder" xml:space="preserve">
+    <value>Insira seu nome...</value>
+  </data>
+  <data name="LastNamePlaceholder" xml:space="preserve">
+    <value>Insira seu sobrenome...</value>
+  </data>
+  <data name="PhonePlaceHolder" xml:space="preserve">
+    <value>Insira o seu número de telefone...</value>
+  </data>
+  <data name="AddressPlaceHolder" xml:space="preserve">
+    <value>Insira o seu endereço...</value>
+  </data>
+  <data name="PasswordConfirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="PasswordConfirmPlaceHolder" xml:space="preserve">
+    <value>Digite sua senha para confirmar...</value>
+  </data>
+  <data name="FirstNameError" xml:space="preserve">
+    <value>Você deve inserir um nome.</value>
+  </data>
+  <data name="LastNameError" xml:space="preserve">
+    <value>Digite um sobrenome.</value>
+  </data>
+  <data name="EMailError" xml:space="preserve">
+    <value>Você deve inserir um endereço de email válido.</value>
+  </data>
+  <data name="PhoneError" xml:space="preserve">
+    <value>Você deve digitar um número de telefone.</value>
+  </data>
+  <data name="PasswordConfirmError" xml:space="preserve">
+    <value>Tem de introduzir uma palavra-passe</value>
+  </data>
+  <data name="PasswordsNoMatch" xml:space="preserve">
+    <value>A senha e confirme a deve ser igual a.</value>
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Informe uma nova senha com no mínimo 6 caracteres.</value>
+  </data>
+  <data name="RegisterConfirmation" xml:space="preserve">
+    <value>O usuário foi criado com êxito. Agora você pode entrar com o e-mail e a senha atribuída.</value>
+  </data>
 </root>

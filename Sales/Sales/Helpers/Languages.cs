@@ -226,5 +226,100 @@
         {
             get { return Resource.Exit; }
         }
+
+        public static string NoProductsMessage
+        {
+            get { return Resource.NoProductsMessage; }
+        }
+
+        public static string FirstName
+        {
+            get { return Resource.FirstName; }
+        }
+
+        public static string FirstNamePlaceholder
+        {
+            get { return Resource.FirstNamePlaceholder; }
+        }
+
+        public static string LastName
+        {
+            get { return Resource.LastName; }
+        }
+
+        public static string LastNamePlaceholder
+        {
+            get { return Resource.LastNamePlaceholder; }
+        }
+
+        public static string Phone
+        {
+            get { return Resource.Phone; }
+        }
+
+        public static string PhonePlaceHolder
+        {
+            get { return Resource.PhonePlaceHolder; }
+        }
+
+        public static string PasswordConfirm
+        {
+            get { return Resource.PasswordConfirm; }
+        }
+
+        public static string PasswordConfirmPlaceHolder
+        {
+            get { return Resource.PasswordConfirmPlaceHolder; }
+        }
+
+        public static string Address
+        {
+            get { return Resource.Address; }
+        }
+
+        public static string AddressPlaceHolder
+        {
+            get { return Resource.AddressPlaceHolder; }
+        }
+
+        public static string FirstNameError
+        {
+            get { return Resource.FirstNameError; }
+        }
+
+        public static string LastNameError
+        {
+            get { return Resource.LastNameError; }
+        }
+
+        public static string EMailError
+        {
+            get { return Resource.EMailError; }
+        }
+
+        public static string PhoneError
+        {
+            get { return Resource.PhoneError; }
+        }
+
+        public static string PasswordError
+        {
+            get { return Resource.PasswordError; }
+        }
+
+        public static string PasswordConfirmError
+        {
+            get { return Resource.PasswordConfirmError; }
+        }
+
+        public static string PasswordsNoMatch
+        {
+            get { return Resource.PasswordsNoMatch; }
+        }
+
+        public static string RegisterConfirmation
+        {
+            get { return Resource.RegisterConfirmation; }
+        }
     }
 }
