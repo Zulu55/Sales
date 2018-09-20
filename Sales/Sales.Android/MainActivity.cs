@@ -4,6 +4,7 @@
     using Android.Content.PM;
     using Android.OS;
     using Android.Runtime;
+    using ImageCircle.Forms.Plugin.Droid;
     using Plugin.CurrentActivity;
     using Plugin.Permissions;
 
@@ -22,6 +23,7 @@
 
             base.OnCreate(savedInstanceState);
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
+            ImageCircleRenderer.Init();
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }
