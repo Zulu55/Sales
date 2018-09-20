@@ -12,9 +12,17 @@
             <Image
                 Source="sales">
             </Image>
+            <Label
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="{Binding UserFullName}"
+                TextColor="White">
+            </Label>
             <ListView
                 ItemsSource="{Binding Menu}"
-                HasUnevenRows="True">
+                HasUnevenRows="True"
+                SeparatorVisibility="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
