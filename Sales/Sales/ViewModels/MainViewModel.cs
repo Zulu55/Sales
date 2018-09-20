@@ -22,7 +22,7 @@
 
         public ObservableCollection<MenuItemViewModel> Menu { get; set; }
 
-        public UserASP UserASP { get; set; }
+        public MyUserASP UserASP { get; set; }
 
         public string UserFullName
         {
