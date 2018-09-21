@@ -46,11 +46,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Claim.cs" />
+    <Compile Include="Models\FacebookResponse.cs" />
     <Compile Include="Models\GetUserRequest.cs" />
+    <Compile Include="Models\InstagramResponse.cs" />
     <Compile Include="Models\MyUserASP.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Response.cs" />
     <Compile Include="Models\TokenResponse.cs" />
+    <Compile Include="Models\TwitterResponse.cs" />
     <Compile Include="Models\UserRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
