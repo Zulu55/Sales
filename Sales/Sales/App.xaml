@@ -22,21 +22,21 @@
             <x:String x:Key="FacebookScope">email</x:String>
 
             <!-- Instagram -->
-            <x:String x:Key="InstagramAppID">95e62f4c54f544018e5c982beaeffb62</x:String>
-            <x:String x:Key="InstagramAuthURL">https://api.instagram.com/oauth/authorize/</x:String>
-            <x:String x:Key="InstagramRedirectURL">https://www.instagram.com/</x:String>
+            <x:String x:Key="InstagramAppID">efc75a941d87444ab8b12c17adfd9d2a</x:String>
+            <x:String x:Key="InstagramAuthURL">https://api.instagram.com/oauth/authorize</x:String>
+            <x:String x:Key="InstagramRedirectURL">https://www.instagram.com</x:String>
             <x:String x:Key="InstagramScope">basic</x:String>
             <x:String x:Key="InstagramProfileInfoURL">https://api.instagram.com/v1/users/self/?access_token</x:String>
 
             <!-- Twitter -->
-            <x:String x:Key="TwitterConsumerKey">OL9VF9ivqoxvgMiNYrNcq4DOW</x:String>
-            <x:String x:Key="TwitterConsumerSecret">v039sZkHHLnZrqlUmkpRzlSZ9RVB9wA5w8XX12p5c8DDEoNLkG</x:String>
-            <x:String x:Key="TwitterRequestTokenURL">https://api.twitter.com/oauth/request_token</x:String>
-            <x:String x:Key="TwitterAuthorizeURL">https://api.twitter.com/oauth/authorize</x:String>
-            <x:String x:Key="TwitterAccessTokenURL">https://api.twitter.com/oauth/access_token</x:String>
-            <x:String x:Key="Url">http://www.zulu-software.com</x:String>
+            <x:String x:Key="TwitterKey">8BGQv1IC3oS25Nd9OKjEjkZPt</x:String>
+            <x:String x:Key="TwitterSecret">XEQMBCozx44OYwsqlCd95sKnfNnUxGQXZwKCmCT3dhnbFErAoC</x:String>
+            <x:String x:Key="TwitterRequestURL">https://api.twitter.com/oauth/request_token</x:String>
+            <x:String x:Key="TwitterAuthURL">https://twitter.com/oauth/authenticate</x:String>
+            <x:String x:Key="TwitterURLAccess">https://api.twitter.com/oauth/access_token</x:String>
+            <x:String x:Key="TwitterCallbackURL">https://mobile.twitter.com/</x:String>
             <x:String x:Key="TwitterProfileInfoURL">https://api.twitter.com/1.1/account/verify_credentials.json</x:String>
-
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>
