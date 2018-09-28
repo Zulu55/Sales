@@ -14,6 +14,7 @@
             <x:String x:Key="UrlPrefix">/api</x:String>
             <x:String x:Key="UrlProductsController">/Products</x:String>
             <x:String x:Key="UrlUsersController">/Users</x:String>
+            <x:String x:Key="UrlCategoriesController">/Categories</x:String>
 
             <!-- Facebook -->
             <x:String x:Key="FacebookAppID">263102957879241</x:String>

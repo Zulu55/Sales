@@ -1,23 +1,22 @@
 ﻿namespace Sales.Backend.Controllers
 {
-    using System;
     using System.Data.Entity;
     using System.Linq;
     using System.Net;
     using System.Threading.Tasks;
     using System.Web.Mvc;
     using Common.Models;
+    using Helpers;
     using Models;
-    using Sales.Backend.Helpers;
 
     [Authorize]
-    public class ProductsController : Controller
+    public class CategoriesController : Controller
     {
         private LocalDataContext db = new LocalDataContext();
 
         public async Task<ActionResult> Index()
         {
-            return View(await this.db.Products.OrderBy(p => p.Description).ToListAsync());
+            return View(await this.db.Categories.OrderBy(c => c.Description).ToListAsync());
         }
 
         public async Task<ActionResult> Details(int? id)
@@ -27,14 +26,14 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var product = await this.db.Products.FindAsync(id);
+            var category = await this.db.Categories.FindAsync(id);
 
-            if (product == null)
+            if (category == null)
             {
                 return HttpNotFound();
             }
 
-            return View(product);
+            return View(category);
         }
 
         public ActionResult Create()
@@ -44,12 +43,12 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(ProductView view)
+        public async Task<ActionResult> Create(CategoryView view)
         {
             if (ModelState.IsValid)
             {
                 var pic = string.Empty;
-                var folder = "~/Content/Products";
+                var folder = "~/Content/Categories";
 
                 if (view.ImageFile != null)
                 {
@@ -57,8 +56,8 @@
                     pic = $"{folder}/{pic}";
                 }
 
-                var product = this.ToProduct(view, pic);
-                this.db.Products.Add(product);
+                var category = this.ToCategory(view, pic);
+                this.db.Categories.Add(category);
                 await this.db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
@@ -66,17 +65,13 @@
             return View(view);
         }
 
-        private Product ToProduct(ProductView view, string pic)
+        private Category ToCategory(CategoryView view, string pic)
         {
-            return new Product
+            return new Category
             {
+                CategoryId = view.CategoryId,
                 Description = view.Description,
                 ImagePath = pic,
-                IsAvailable = view.IsAvailable,
-                Price = view.Price,
-                ProductId = view.ProductId,
-                PublishOn = view.PublishOn,
-                Remarks = view.Remarks,
             };
         }
 
@@ -85,42 +80,37 @@
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-
             }
 
-            var product = await this.db.Products.FindAsync(id);
+            var category = await this.db.Categories.FindAsync(id);
 
-            if (product == null)
+            if (category == null)
             {
                 return HttpNotFound();
             }
 
-            var view = this.ToView(product);
+            var view = this.ToView(category);
             return View(view);
         }
 
-        private ProductView ToView(Product product)
+        private CategoryView ToView(Category category)
         {
-            return new ProductView
+            return new CategoryView
             {
-                Description = product.Description,
-                ImagePath = product.ImagePath,
-                IsAvailable = product.IsAvailable,
-                Price = product.Price,
-                ProductId = product.ProductId,
-                PublishOn = product.PublishOn,
-                Remarks = product.Remarks,
+                CategoryId = category.CategoryId,
+                Description = category.Description,
+                ImagePath = category.ImagePath,
             };
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit(ProductView view)
+        public async Task<ActionResult> Edit(CategoryView view)
         {
             if (ModelState.IsValid)
             {
                 var pic = view.ImagePath;
-                var folder = "~/Content/Products";
+                var folder = "~/Content/Categories";
 
                 if (view.ImageFile != null)
                 {
@@ -128,8 +118,8 @@
                     pic = $"{folder}/{pic}";
                 }
 
-                var product = this.ToProduct(view, pic);
-                this.db.Entry(product).State = EntityState.Modified;
+                var category = this.ToCategory(view, pic);
+                this.db.Entry(category).State = EntityState.Modified;
                 await this.db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
@@ -144,22 +134,22 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var product = await this.db.Products.FindAsync(id);
+            var category = await this.db.Categories.FindAsync(id);
 
-            if (product == null)
+            if (category == null)
             {
                 return HttpNotFound();
             }
 
-            return View(product);
+            return View(category);
         }
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> DeleteConfirmed(int id)
         {
-            var product = await this.db.Products.FindAsync(id);
-            this.db.Products.Remove(product);
+            var category = await this.db.Categories.FindAsync(id);
+            this.db.Categories.Remove(category);
             await this.db.SaveChangesAsync();
             return RedirectToAction("Index");
         }

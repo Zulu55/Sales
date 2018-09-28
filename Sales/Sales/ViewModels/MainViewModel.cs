@@ -10,6 +10,8 @@
     public class MainViewModel
     {
         #region Properties
+        public CategoriesViewModel Categories { get; set; }
+
         public EditProductViewModel EditProduct { get; set; }
 
         public ProductsViewModel Products { get; set; }

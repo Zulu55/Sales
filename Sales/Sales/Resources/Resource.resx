@@ -303,4 +303,7 @@
   <data name="RegisterConfirmation" xml:space="preserve">
     <value>The user was created successfully. Now you can enter with the email and the assigned password.</value>
   </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
 </root>

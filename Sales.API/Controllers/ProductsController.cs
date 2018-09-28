@@ -28,14 +28,11 @@
         [ResponseType(typeof(Product))]
         public async Task<IHttpActionResult> GetProduct(int id)
         {
-            var product = await this.db.Products.FindAsync(id);
-
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(product);
+            var products = await this.db.Products.
+                Where(p => p.CategoryId == id).
+                OrderBy(p => p.Description).
+                ToListAsync();
+            return Ok(products);
         }
 
         // PUT: api/Products/5

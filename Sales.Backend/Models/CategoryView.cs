@@ -4,7 +4,7 @@
     using System.Web;
     using Common.Models;
 
-    public class ProductView : Product 
+    public class CategoryView : Category
     {
         [Display(Name = "Image")]
         public HttpPostedFileBase ImageFile { get; set; }

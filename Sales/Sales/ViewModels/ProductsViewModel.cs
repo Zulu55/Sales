@@ -24,6 +24,8 @@
         private bool isRefreshing;
 
         private ObservableCollection<ProductItemViewModel> products;
+
+        private Category category;
         #endregion
 
         #region Properties
@@ -50,12 +52,19 @@
             get { return this.isRefreshing; }
             set { this.SetValue(ref this.isRefreshing, value); }
         }
+
+        public Category Category
+        {
+            get { return this.category; }
+            set { this.SetValue(ref this.category, value); }
+        }
         #endregion
 
         #region Constructors
-        public ProductsViewModel()
+        public ProductsViewModel(Category category)
         {
             instance = this;
+            this.Category = category;
             this.apiService = new ApiService();
             this.dataService = new DataService();
             this.LoadProducts();
@@ -67,11 +76,6 @@
 
         public static ProductsViewModel GetInstance()
         {
-            if (instance == null)
-            {
-                return new ProductsViewModel();
-            }
-
             return instance;
         }
         #endregion
@@ -187,7 +191,6 @@
                 return new RelayCommand(LoadProducts);
             }
         }
-
         #endregion
     }
 }

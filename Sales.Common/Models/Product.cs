@@ -1,5 +1,6 @@
 ﻿namespace Sales.Common.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
@@ -8,6 +9,12 @@
     {
         [Key]
         public int ProductId { get; set; }
+
+        public int CategoryId { get; set; }
+
+        [Required]
+        [StringLength(128)]
+        public string UserId { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -43,8 +50,10 @@
 
                 return $"https://salesapiservices.azurewebsites.net/{this.ImagePath.Substring(1)}";
             }
-
         }
+
+        [JsonIgnore]
+        public virtual Category Category { get; set; }
 
         public override string ToString()
         {
