@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:i18n="clr-namespace:Sales.Helpers"
              x:Class="Sales.Views.CategoriesPage"
+             BackgroundColor="Silver"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
              Title="{i18n:Translate Categories}">
     <ContentPage.Content>
@@ -10,12 +11,14 @@
             BindingContext="{Binding Categories}"
             Padding="5">
             <SearchBar
-                HeightRequest="30"
+                BackgroundColor="Transparent"
+                HeightRequest="40"
                 Placeholder="{i18n:Translate Search}"
                 SearchCommand="{Binding SearchCommand}"
                 Text="{Binding Filter}">
             </SearchBar>
             <ListView
+                BackgroundColor="Transparent"
                 HasUnevenRows="True"
                 IsRefreshing="{Binding IsRefreshing}"
                 IsPullToRefreshEnabled="True"

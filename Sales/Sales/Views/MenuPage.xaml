@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
@@ -24,6 +24,7 @@
                 TextColor="White">
             </Label>
             <ListView
+                BackgroundColor="Transparent"
                 ItemsSource="{Binding Menu}"
                 HasUnevenRows="True"
                 SeparatorVisibility="None">
