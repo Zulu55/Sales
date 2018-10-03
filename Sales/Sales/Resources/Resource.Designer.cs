@@ -424,5 +424,23 @@ namespace Sales.Resources {
                 return ResourceManager.GetString("Categories", resourceCulture);
             }
         }
+        
+        public static string Category {
+            get {
+                return ResourceManager.GetString("Category", resourceCulture);
+            }
+        }
+        
+        public static string CategoryPlaceholder {
+            get {
+                return ResourceManager.GetString("CategoryPlaceholder", resourceCulture);
+            }
+        }
+        
+        public static string CategoryError {
+            get {
+                return ResourceManager.GetString("CategoryError", resourceCulture);
+            }
+        }
     }
 }

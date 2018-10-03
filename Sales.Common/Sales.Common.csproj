@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Assistant.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Claim.cs" />
     <Compile Include="Models\FacebookResponse.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Models\MyUserASP.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Response.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Models\TokenResponse.cs" />
     <Compile Include="Models\TwitterResponse.cs" />
     <Compile Include="Models\UserRequest.cs" />

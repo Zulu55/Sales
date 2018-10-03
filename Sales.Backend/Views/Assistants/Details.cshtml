@@ -1,0 +1,42 @@
+﻿@model Sales.Common.Models.Assistant
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Assistant</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Locallity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Locallity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TicketId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AssistantId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

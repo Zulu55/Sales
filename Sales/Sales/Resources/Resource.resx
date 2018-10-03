@@ -306,4 +306,13 @@
   <data name="Categories" xml:space="preserve">
     <value>Categories</value>
   </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CategoryPlaceholder" xml:space="preserve">
+    <value>Select the category...</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>You must select a category.</value>
+  </data>
 </root>

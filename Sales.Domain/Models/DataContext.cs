@@ -12,5 +12,9 @@
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Student> Students { get; set; }
+
+        public DbSet<Assistant> Assistants { get; set; }
     }
 }

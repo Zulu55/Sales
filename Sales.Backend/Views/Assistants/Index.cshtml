@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Sales.Common.Models.Assistant>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Locallity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Locallity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TicketId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AssistantId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AssistantId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AssistantId })
+        </td>
+    </tr>
+}
+
+</table>
