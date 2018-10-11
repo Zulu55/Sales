@@ -313,6 +313,6 @@
     <value>Selecionar categoria..</value>
   </data>
   <data name="CategoryError" xml:space="preserve">
-    <value>Devi selezionare una categoria.</value>
+    <value>Você deve selecionar uma categoria</value>
   </data>
 </root>

@@ -307,12 +307,12 @@
     <value>Categorie</value>
   </data>
   <data name="Category" xml:space="preserve">
-    <value>Categoria</value>
+    <value>Categorie</value>
   </data>
   <data name="CategoryPlaceholder" xml:space="preserve">
     <value>Seleziona la categoria...</value>
   </data>
   <data name="CategoryError" xml:space="preserve">
-    <value>Debes seleccionar una categoría.</value>
+    <value>Devi selezionare una categoria.</value>
   </data>
 </root>
