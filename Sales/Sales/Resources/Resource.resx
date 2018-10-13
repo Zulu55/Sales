@@ -303,4 +303,16 @@
   <data name="RegisterConfirmation" xml:space="preserve">
     <value>The user was created successfully. Now you can enter with the email and the assigned password.</value>
   </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CategoryPlaceholder" xml:space="preserve">
+    <value>Select the category...</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>You must select a category.</value>
+  </data>
 </root>

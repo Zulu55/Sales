@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Claim.cs" />
     <Compile Include="Models\FacebookResponse.cs" />
     <Compile Include="Models\GetUserRequest.cs" />
