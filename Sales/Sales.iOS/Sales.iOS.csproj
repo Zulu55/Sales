@@ -181,11 +181,21 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_1125x2436.png" />
-    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_2436x1125.png" />
-    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_1242x2208.png" />
-    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_750x1334.png" />
-    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_2208x1242.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_1125x2436.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_2436x1125.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_1242x2208.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_750x1334.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\splash_2208x1242.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
