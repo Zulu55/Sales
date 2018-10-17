@@ -18,6 +18,8 @@
 
         public LoginViewModel Login { get; set; }
 
+        public CategoriesViewModel Categories { get; set; }
+
         public RegisterViewModel Register { get; set; }
 
         public ObservableCollection<MenuItemViewModel> Menu { get; set; }
