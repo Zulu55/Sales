@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Sales.Views.MapPage"
+             Title="Mapas">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                FontAttributes="Bold"
+                FontSize="Large"
+                Text="Aca va el mapa"
+                TextColor="Black">
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

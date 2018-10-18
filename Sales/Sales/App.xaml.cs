@@ -16,8 +16,13 @@ namespace Sales
 
     public partial class App : Application
     {
+        #region Properties
         public static NavigationPage Navigator { get; internal set; }
 
+        public static MasterPage Master { get; internal set; }
+        #endregion
+
+        #region Constructors
         public App()
         {
             InitializeComponent();
@@ -41,7 +46,9 @@ namespace Sales
                 this.MainPage = new NavigationPage(new LoginPage());
             }
         }
+        #endregion
 
+        #region Methods
         public static Action HideLoginView
         {
             get
@@ -93,5 +100,6 @@ namespace Sales
         {
             // Handle when your app resumes
         }
+        #endregion
     }
 }
