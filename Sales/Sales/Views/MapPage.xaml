@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Sales.Views.MapPage"
+             Title="Mapas">
+    <ContentPage.Content>
+        <StackLayout>
+            <maps:Map
+                x:Name="MyMap"
+                HorizontalOptions="FillAndExpand"
+                MapType="Street"
+                VerticalOptions="FillAndExpand">
+            </maps:Map>
+            <Slider
+                x:Name="MySlider"
+                Value="0.8"
+                ValueChanged="Handle_ValueChanged">
+            </Slider>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
