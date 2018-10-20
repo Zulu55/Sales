@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:i18n="clr-namespace:Sales.Helpers"
@@ -59,24 +59,38 @@
                     <Label
                         Grid.Column="0"
                         Grid.Row="2"
+                        Text="{i18n:Translate Category}"
+                        VerticalOptions="Center">
+                    </Label>
+                    <Picker
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        ItemDisplayBinding="{Binding Description}"
+                        ItemsSource="{Binding Categories}"
+                        SelectedItem="{Binding Category}"
+                        Title="{i18n:Translate CategoryPlaceholder}">
+                    </Picker>
+                    <Label
+                        Grid.Column="0"
+                        Grid.Row="3"
                         Text="{i18n:Translate Remarks}"
                         VerticalOptions="Center">
                     </Label>
                     <Editor
                         Grid.Column="1"
-                        Grid.Row="2"
+                        Grid.Row="3"
                         Text="{Binding Product.Remarks}"
                         VerticalOptions="FillAndExpand">
                     </Editor>
                     <Label
                         Grid.Column="0"
-                        Grid.Row="3"
+                        Grid.Row="4"
                         Text="{i18n:Translate IsAvailable}"
                         VerticalOptions="Center">
                     </Label>
                     <Switch
                         Grid.Column="1"
-                        Grid.Row="3"
+                        Grid.Row="4"
                         HorizontalOptions="End"
                         IsToggled="{Binding Product.IsAvailable}">
                     </Switch>
