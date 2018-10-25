@@ -1,7 +1,7 @@
-﻿using System;
-namespace Sales.Interfaces
+﻿namespace Sales.Interfaces
 {
     public interface IRegisterDevice
     {
+        void RegisterDevice();
     }
 }

@@ -5,7 +5,9 @@
     using Common.Models;
     using GalaSoft.MvvmLight.Command;
     using Helpers;
+    using Interfaces;
     using Views;
+    using Xamarin.Forms;
 
     public class MainViewModel
     {
@@ -108,6 +110,12 @@
                 PageName = "LoginPage",
                 Title = Languages.Exit,
             });
+        }
+
+        public void RegisterDevice()
+        {
+            var register = DependencyService.Get<IRegisterDevice>();
+            register.RegisterDevice();
         }
         #endregion
 
